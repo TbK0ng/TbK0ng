@@ -1,0 +1,5 @@
+- 👋 Hi, I’m @TbK0ng
+- 👀 I’m interested in Hacking
+- 🌱 I’m currently learning go/reverse engineering
+- 💞️ Long time no code,maybe i need to do some small changes
+- 📩 U can just contact me by pulling requests
