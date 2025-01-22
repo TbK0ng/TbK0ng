@@ -1,5 +1,2 @@
-- 👋 Hi, I’m @TbK0ng
-- 👀 I’m interested in Hacking
-- 🌱 I’m currently learning go/rust
-- 💞️ web3 && humans
-- 📩 U can just contact me by pulling requests
+- 👋 Hi, I’m Caojing
+- I'm form HIT(Harbin)
