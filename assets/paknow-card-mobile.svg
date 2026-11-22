@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="420" viewBox="0 0 600 420" role="img" aria-labelledby="title desc">
+  <title id="title">PAknow project card</title>
+  <desc id="desc">PAknow is an auditable price-action research agent with deterministic nomination, evidence verification, structured review, and paper replay.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1513"/>
+      <stop offset="1" stop-color="#101c1a"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#b8f7ea" stroke-opacity=".04"/>
+    </pattern>
+    <style>
+      .mono { font-family: "JetBrains Mono", "SFMono-Regular", Consolas, monospace; }
+      .sans { font-family: Inter, "Segoe UI", "Noto Sans", sans-serif; }
+    </style>
+  </defs>
+  <rect width="600" height="420" rx="14" fill="url(#bg)"/>
+  <rect width="600" height="420" rx="14" fill="url(#grid)"/>
+  <rect x="0" y="0" width="8" height="420" fill="#5eead4"/>
+
+  <g class="mono" fill="#5eead4" font-size="13" letter-spacing="1.8">
+    <text x="30" y="38">01 / EVIDENCE-GATED AGENTS</text>
+  </g>
+  <g class="mono" fill="#6f8f88" font-size="12">
+    <text x="570" y="38" text-anchor="end">PYTHON / RAG</text>
+  </g>
+
+  <g class="sans" fill="#f3fbf8">
+    <text x="30" y="101" font-size="50" font-weight="750" letter-spacing="1">PAKNOW</text>
+    <text x="30" y="139" font-size="20" fill="#a7c5bf">An auditable price-action</text>
+    <text x="30" y="165" font-size="20" fill="#a7c5bf">research agent.</text>
+  </g>
+
+  <g class="mono" fill="#d7fff7" font-size="14">
+    <rect x="30" y="204" width="540" height="40" rx="6" fill="#10221e" stroke="#2b574d"/>
+    <text x="46" y="229">01  RULES NOMINATE</text>
+    <rect x="30" y="254" width="540" height="40" rx="6" fill="#10221e" stroke="#2b574d"/>
+    <text x="46" y="279">02  EVIDENCE VERIFIES</text>
+    <rect x="30" y="304" width="540" height="40" rx="6" fill="#10221e" stroke="#2b574d"/>
+    <text x="46" y="329">03  MODEL REVIEWS</text>
+    <rect x="30" y="354" width="540" height="40" rx="6" fill="#14352f" stroke="#5eead4"/>
+    <text x="46" y="379">04  REPLAY PROVES</text>
+  </g>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="420" viewBox="0 0 600 420" role="img" aria-labelledby="title desc">
+  <title id="title">myflow project card</title>
+  <desc id="desc">myflow is a context state machine harness for coding agents with plan approval, bounded context, write scopes, and verify gates.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111412"/>
+      <stop offset="1" stop-color="#1b1711"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#ffe3b0" stroke-opacity=".04"/>
+    </pattern>
+    <style>
+      .mono { font-family: "JetBrains Mono", "SFMono-Regular", Consolas, monospace; }
+      .sans { font-family: Inter, "Segoe UI", "Noto Sans", sans-serif; }
+    </style>
+  </defs>
+  <rect width="600" height="420" rx="14" fill="url(#bg)"/>
+  <rect width="600" height="420" rx="14" fill="url(#grid)"/>
+  <rect x="0" y="0" width="8" height="420" fill="#f0b36a"/>
+
+  <g class="mono" fill="#f0b36a" font-size="13" letter-spacing="1.8">
+    <text x="30" y="38">02 / CONTEXT STATE MACHINES</text>
+  </g>
+  <g class="mono" fill="#9b8b73" font-size="12">
+    <text x="570" y="38" text-anchor="end">TS / NODE / PY</text>
+  </g>
+
+  <g class="sans" fill="#fff9ef">
+    <text x="30" y="101" font-size="50" font-weight="750" letter-spacing="1">MYFLOW</text>
+    <text x="30" y="139" font-size="20" fill="#d3c4ad">A context state machine for</text>
+    <text x="30" y="165" font-size="20" fill="#d3c4ad">long-running coding agents.</text>
+  </g>
+
+  <g class="mono" fill="#f8ebd7" font-size="14">
+    <rect x="30" y="204" width="540" height="40" rx="6" fill="#221e17" stroke="#4e402b"/>
+    <text x="46" y="229">01  PLAN</text>
+    <rect x="30" y="254" width="540" height="40" rx="6" fill="#221e17" stroke="#4e402b"/>
+    <text x="46" y="279">02  APPROVE</text>
+    <rect x="30" y="304" width="540" height="40" rx="6" fill="#221e17" stroke="#4e402b"/>
+    <text x="46" y="329">03  IMPLEMENT + VERIFY</text>
+    <rect x="30" y="354" width="540" height="40" rx="6" fill="#3a2a17" stroke="#f0b36a"/>
+    <text x="46" y="379">04  ARCHIVE</text>
+  </g>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="title desc">
+  <title id="title">PAknow project card</title>
+  <desc id="desc">PAknow is an auditable price-action research agent with deterministic nomination, evidence verification, structured review, and paper replay.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1513"/>
+      <stop offset="1" stop-color="#101c1a"/>
+    </linearGradient>
+    <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse">
+      <path d="M26 0H0V26" fill="none" stroke="#b8f7ea" stroke-opacity=".04"/>
+    </pattern>
+    <style>
+      .mono { font-family: "JetBrains Mono", "SFMono-Regular", Consolas, monospace; }
+      .sans { font-family: Inter, "Segoe UI", "Noto Sans", sans-serif; }
+    </style>
+  </defs>
+  <rect width="1200" height="260" rx="14" fill="url(#bg)"/>
+  <rect width="1200" height="260" rx="14" fill="url(#grid)"/>
+  <rect x="0" y="0" width="8" height="260" fill="#5eead4"/>
+
+  <g class="mono" fill="#5eead4" font-size="12" letter-spacing="1.8">
+    <text x="38" y="39">01 / EVIDENCE-GATED AGENTS</text>
+    <text x="1162" y="39" text-anchor="end" fill="#6f8f88">PYTHON / FASTAPI / RAG</text>
+  </g>
+
+  <g class="sans" fill="#f3fbf8">
+    <text x="38" y="104" font-size="46" font-weight="750" letter-spacing="1">PAKNOW</text>
+    <text x="38" y="139" font-size="18" fill="#a7c5bf">An auditable price-action research agent.</text>
+  </g>
+
+  <g class="mono" fill="#a7c5bf" font-size="12">
+    <text x="38" y="184">RULES NOMINATE</text>
+    <path d="M174 180h35" stroke="#3a6f63"/>
+    <text x="225" y="184">EVIDENCE VERIFIES</text>
+    <path d="M381 180h35" stroke="#3a6f63"/>
+    <text x="432" y="184">MODEL REVIEWS</text>
+    <path d="M575 180h35" stroke="#3a6f63"/>
+    <text x="626" y="184">REPLAY PROVES</text>
+  </g>
+
+  <g class="mono" fill="#6f8f88" font-size="11">
+    <text x="38" y="224">28,615 evidence / 16,067 dense points / 8-way local retrieval</text>
+    <text x="1162" y="224" text-anchor="end">github.com/TbK0ng/paknow</text>
+  </g>
+</svg>
